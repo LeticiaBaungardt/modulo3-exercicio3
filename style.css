@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(180deg,#000,transparent 1%),url(//dl1f6y24yx1ap.cloudfront.net/statics/2024-09-28/images/background-smoke-purple.jpg) bottom,#000;
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    height: 80px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoJogo {
+    width: 180px;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.linhaBronze {
+    width: 100%;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+.description {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: darkgoldenrod;
+    font-size: larger;
+    line-height: 1.5;
+    padding: 45px;
+}
+
+.galery {
+    display: flex inline;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+
+.galery-item {
+    width: 400px;
+    height: 340px;
+    border: 1px solid rgb(61, 5, 61);
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+}
+
+.galery-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+aside {
+    background-color: rgb(255, 255, 255, 3%);
+    width: 30%;
+    height: 1890px;
+    float: right;
+    position: static;
+    box-shadow: 4px 0 8px;
+}
+
+div a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    background-color: rgb(61, 5, 61);
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 20px 30px 0px 20px;
+    width: 350%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.botao-aside {
+    position: fixed;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
